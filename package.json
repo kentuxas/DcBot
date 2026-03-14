@@ -1,0 +1,16 @@
+{
+  "name": "ultimate-invite-tracker-bot",
+  "version": "1.0.0",
+  "description": "Advanced Discord Invite Tracker Bot with leaderboard, stats, rewards, and giveaways",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "quick.db": "^9.1.7",
+    "better-sqlite3": "^9.4.0",
+    "ms": "^2.1.3",
+    "express": "^4.19.2"
+  }
+}
