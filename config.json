@@ -1,13 +1,15 @@
 {
-  "token": "YOUR_BOT_TOKEN",
-  "clientId": "YOUR_CLIENT_ID",
-  "guildId": "YOUR_SERVER_ID",
-  "logChannel": "LOG_CHANNEL_ID",
+module.exports = {
+ token: process.env.TOKEN,
+ clientId: process.env.CLIENT_ID,
+ guildId: process.env.GUILD_ID,
+ logChannel: process.env.LOG_CHANNEL
+}
   "dashboardPort": 3000,
   "fakeAccountDays": 7,
-  "rewardRoles": {
-    "5": "ROLE_ID",
-    "10": "ROLE_ID",
-    "25": "ROLE_ID"
-  }
+"rewardRoles": {
+  "5": "1482702612817252474",
+  "10": "1482702727393050624",
+  "25": "1482702735043198977"
+}
 }
